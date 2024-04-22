@@ -134,7 +134,7 @@
 
         <pod name="FirebaseCoreInternal" spec="10.24.0"/>
         <pod name="FirebaseCore" spec="10.24.0"/>
-        <pod name="FirebaseCore-FirebaseCore_Privacy" spec="10.24.0"/>
+
         <pod name="GoogleAppMeasurement" spec="10.24.0"/>
 
 				<pod name="FirebaseAnalytics" spec="10.24.0"/>
