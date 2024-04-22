@@ -93,7 +93,7 @@
   </platform>
 
   <platform name="ios">
-    <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 8.1.1"/>
+    <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="10.24.0"/>
 
     <config-file target="config.xml" parent="/*">
       <feature name="PushNotification">
@@ -128,18 +128,7 @@
       </config>
 
       <pods use-frameworks="true">
-				<pod name="Firebase" spec="10.5.0"/>
-
-
-
-        <pod name="FirebaseCoreInternal" spec="10.5.0"/>
-        <pod name="FirebaseCore" spec="10.5.0"/>
-
-        <pod name="GoogleAppMeasurement" spec="10.5.0"/>
-
-				<pod name="FirebaseAnalytics" spec="10.5.0"/>
-				<pod name="FirebaseMessaging" spec="10.5.0"/>
-				<pod name="FirebaseInstallations" spec="10.5.0"/>
+        <pod name="Firebase/Messaging" spec="$IOS_FIREBASE_MESSAGING_VERSION" />
 <!-- 
 <pod name="FirebaseCore" spec="10.17.0"/>
 				<pod name="FirebaseAuth" spec="10.17.0"/>
